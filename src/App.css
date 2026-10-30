@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f3f8;
+  color: #263238;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.calculadora {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 35px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #263f68;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  white-space: normal;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid #5579b9;
+  border-color: transparent;
+}
+
+.resultado {
+  margin: 25px 0;
+  padding: 22px;
+  background: #e8f5e9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.resultado h2 {
+  color: #263f68;
+  margin-bottom: 10px;
+}
+
+.valor {
+  font-size: 38px;
+  font-weight: bold;
+  color: #16834a;
+}
+
+.classificacao {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #16834a;
+}
+
+h3 {
+  color: #263f68;
+  margin-bottom: 15px;
+}
+
+.tabela {
+  list-style: none;
+}
+
+.tabela li {
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  .calculadora {
+    padding: 25px 20px;
+  }
+}
